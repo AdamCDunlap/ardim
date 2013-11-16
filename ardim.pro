@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        ardim.cpp
+        ardim.cpp \
+    terminal.cpp
 
-HEADERS  += ardim.h
+HEADERS  += ardim.h \
+    terminal.h
 
 FORMS    += ardim.ui
