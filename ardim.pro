@@ -14,9 +14,9 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         ardim.cpp \
-    terminal.cpp
+    test.cpp
 
 HEADERS  += ardim.h \
-    terminal.h
+    test.h
 
 FORMS    += ardim.ui
